@@ -1,0 +1,257 @@
+{
+  "users": [
+    {
+      "id": "usr-1",
+      "name": "Md Nadim",
+      "email": "mdnadimyt26@gmail.com",
+      "role": "admin",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=faces",
+      "phone": "+880 1711-234567",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "usr-2",
+      "name": "Tanvir Ahmed",
+      "email": "tanvir.manager@giftcity.com",
+      "role": "manager",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=faces",
+      "phone": "+880 1819-876543",
+      "createdAt": "2026-01-15T00:00:00Z"
+    },
+    {
+      "id": "usr-3",
+      "name": "Sharmin Sultana",
+      "email": "sharmin.sales@giftcity.com",
+      "role": "staff",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=faces",
+      "phone": "+880 1912-345678",
+      "createdAt": "2026-02-01T00:00:00Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust-1791670014981",
+      "name": "md Nadim",
+      "phone": "01877073320",
+      "address": "jatrabari",
+      "email": "",
+      "notes": "Saved automatically from order creation",
+      "totalOrders": 1,
+      "totalSpent": 4500,
+      "dueBalance": 0,
+      "createdAt": "2026-10-10T22:06:54.982Z",
+      "updatedAt": "2026-10-10T22:06:54.982Z"
+    }
+  ],
+  "products": [
+    {
+      "name": "choco",
+      "sku": "GC-610800",
+      "category": "General",
+      "description": "",
+      "sellingPrice": 1500,
+      "unitCost": 900,
+      "stock": 6,
+      "lowStockThreshold": 5,
+      "unit": "pcs",
+      "isActive": true,
+      "id": "prod-1791668610800",
+      "createdAt": "2026-10-10T21:43:30.800Z",
+      "updatedAt": "2026-10-10T22:06:54.982Z"
+    }
+  ],
+  "orders": [
+    {
+      "customerId": "cust-1791670014981",
+      "customerName": "md Nadim",
+      "customerPhone": "01877073320",
+      "customerAddress": "jatrabari",
+      "receiverName": "md Nadim",
+      "receiverPhone": "01877073320",
+      "deliveryAddress": "jatrabari",
+      "sameAsCustomer": true,
+      "deliveryDate": "2026-10-11",
+      "deliverySlot": "anytime",
+      "deliveryInstructions": "",
+      "items": [
+        {
+          "id": "item-1791670014981-0.6558811622484588",
+          "productId": "prod-1791668610800",
+          "productName": "choco",
+          "sku": "GC-610800",
+          "unitCost": 900,
+          "unitPrice": 1500,
+          "quantity": 3,
+          "lineTotal": 4500
+        }
+      ],
+      "subtotal": 4500,
+      "discount": 0,
+      "shippingCost": 0,
+      "grandTotal": 4500,
+      "paidAmount": 4500,
+      "dueBalance": 0,
+      "paymentMethod": "cash",
+      "paymentReference": "",
+      "paymentStatus": "paid",
+      "orderStatus": "confirmed",
+      "id": "ORD-2026-66389",
+      "createdAt": "2026-10-10T22:06:54.982Z",
+      "createdAtLocal": "11 Oct 2026, 04:06 am",
+      "updatedAt": "2026-10-10T22:06:54.982Z",
+      "stockDeducted": true,
+      "createdBy": "usr-1",
+      "createdByName": "Md Nadim"
+    },
+    {
+      "customerId": "cust-1791668695614",
+      "customerName": "md Nadim",
+      "customerPhone": "01877073320",
+      "customerAddress": "jatrabari",
+      "receiverName": "md Nadim",
+      "receiverPhone": "01877073320",
+      "deliveryAddress": "jatrabari",
+      "sameAsCustomer": true,
+      "deliveryDate": "2026-10-10",
+      "deliverySlot": "anytime",
+      "deliveryInstructions": "",
+      "items": [
+        {
+          "id": "item-1791668695614-0.27464053161113855",
+          "productId": "prod-1791668610800",
+          "productName": "choco",
+          "sku": "GC-610800",
+          "unitCost": 900,
+          "unitPrice": 1500,
+          "quantity": 1,
+          "lineTotal": 1500
+        }
+      ],
+      "subtotal": 1500,
+      "discount": 0,
+      "shippingCost": 0,
+      "grandTotal": 1500,
+      "paidAmount": 1500,
+      "dueBalance": 0,
+      "paymentMethod": "cash",
+      "paymentReference": "",
+      "paymentStatus": "paid",
+      "orderStatus": "confirmed",
+      "id": "ORD-2026-28711",
+      "createdAt": "2026-10-10T21:44:55.614Z",
+      "updatedAt": "2026-10-10T21:44:55.614Z",
+      "stockDeducted": true,
+      "createdBy": "usr-1",
+      "createdByName": "Md Nadim"
+    }
+  ],
+  "financeEntries": [
+    {
+      "id": "fin-ord-1791670014982",
+      "type": "income",
+      "category": "order_sale",
+      "amount": 4500,
+      "paymentMethod": "cash",
+      "reference": "ORD-2026-66389",
+      "description": "Order payment for md Nadim (ORD-2026-66389)",
+      "recordedBy": "usr-1",
+      "recordedByName": "Md Nadim",
+      "date": "2026-10-11",
+      "relatedOrderId": "ORD-2026-66389",
+      "createdAt": "2026-10-10T22:06:54.982Z"
+    },
+    {
+      "id": "fin-ord-1791668695614",
+      "type": "income",
+      "category": "order_sale",
+      "amount": 1500,
+      "paymentMethod": "cash",
+      "reference": "ORD-2026-28711",
+      "description": "Order payment for md Nadim (ORD-2026-28711)",
+      "recordedBy": "usr-1",
+      "recordedByName": "Md Nadim",
+      "date": "2026-10-10",
+      "relatedOrderId": "ORD-2026-28711",
+      "createdAt": "2026-10-10T21:44:55.614Z"
+    }
+  ],
+  "stockMovements": [
+    {
+      "id": "sm-1791670014982-prod-1791668610800",
+      "productId": "prod-1791668610800",
+      "productName": "choco",
+      "sku": "GC-610800",
+      "type": "order_deduct",
+      "quantityIn": 0,
+      "quantityOut": 3,
+      "previousStock": 9,
+      "newStock": 6,
+      "unitCost": 900,
+      "reference": "ORD-2026-66389",
+      "reason": "Dispatched for order ORD-2026-66389",
+      "recordedBy": "usr-1",
+      "recordedByName": "Md Nadim",
+      "createdAt": "2026-10-10T22:06:54.982Z"
+    },
+    {
+      "id": "sm-1791668695614-prod-1791668610800",
+      "productId": "prod-1791668610800",
+      "productName": "choco",
+      "sku": "GC-610800",
+      "type": "order_deduct",
+      "quantityIn": 0,
+      "quantityOut": 1,
+      "previousStock": 10,
+      "newStock": 9,
+      "unitCost": 900,
+      "reference": "ORD-2026-28711",
+      "reason": "Dispatched for order ORD-2026-28711",
+      "recordedBy": "usr-1",
+      "recordedByName": "Md Nadim",
+      "createdAt": "2026-10-10T21:44:55.614Z"
+    },
+    {
+      "id": "sm-1791668610800",
+      "productId": "prod-1791668610800",
+      "productName": "choco",
+      "sku": "GC-610800",
+      "type": "stock_in",
+      "quantityIn": 10,
+      "quantityOut": 0,
+      "previousStock": 0,
+      "newStock": 10,
+      "unitCost": 900,
+      "reference": "INITIAL_STOCK",
+      "reason": "Opening stock count during product registration",
+      "recordedBy": "usr-1",
+      "recordedByName": "Md Nadim",
+      "createdAt": "2026-10-10T21:43:30.800Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1",
+      "action": "SYSTEM_BOOT",
+      "module": "system",
+      "details": "Gift City Inventory engine initialized with clean database and live multi-device sync.",
+      "userId": "usr-1",
+      "userName": "Md Nadim",
+      "timestamp": "2026-10-10T00:00:00.000Z"
+    }
+  ],
+  "settings": {
+    "companyName": "Gift City Bangladesh",
+    "tagline": "Choose The Best",
+    "phone": "+880 1711-234567",
+    "address": "216/1, Beside of Top Ten Bata Signal, Elephant Rd, Dhaka 1205, Dhaka, Bangladesh, 1205",
+    "currency": "৳",
+    "defaultDeliveryFee": 80,
+    "lowStockAlertDefault": 5,
+    "timezone": "Asia/Dhaka",
+    "logo": "/gift_city_logo.jpg",
+    "supabaseUrl": "https://odmbxpxoezhpzyxzlntk.supabase.co",
+    "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9kbWJ4cHhvZXpocHp5eHpsbnRrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE3NDM4ODEsImV4cCI6MjEwNzMxOTg4MX0.8ytPByynOuxsCdv0ZU9fdaMYRIa6K1bgyfAhpH4Q6rw"
+  },
+  "version": 6,
+  "lastUpdated": "2026-10-10T22:06:55.936Z"
+}
